@@ -22,6 +22,7 @@ public class MainMenuScript_ : MonoBehaviour
 
     public void start_button_clicked()
     {
+        // Load level menu
         SceneManager.LoadScene(1);
         Debug.Log("You have clicked the Start button"); // start button is cliked which is on main menu
     }
